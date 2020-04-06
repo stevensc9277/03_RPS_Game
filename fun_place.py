@@ -8,7 +8,7 @@ import math
 def num_check(question, low=None, high=None):
     if low is not None and high is not None:
         error = "Please enter an integer between {} and {} " \
-                    "(inclusive)".format(low, high)
+                "(inclusive)".format(low, high)
     elif low is not None and high is None:
         error = "Please enter an integer that is more than or " \
                 "equal to {}".format(low)
@@ -62,4 +62,5 @@ while keep_going == "":
     print()
     keep_going = input("Press <enter> to start again or any key to quit. ")
     print()
+
 print("The end...(* ￣︿￣)")
