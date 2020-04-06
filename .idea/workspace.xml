@@ -26,15 +26,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../02_Higher_Lower" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\d\Documents\GitHub\03_RPS_Game" />
       <recent name="C:\Users\d\Documents\GitHub\02_Higher_Lower" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.car_test">
+  <component name="RunManager" selected="Python.fun_place">
     <configuration name="01_RPS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="03_RPS_Game" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,11 +102,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="fun_place" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="03_RPS_Game" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fun_place.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Complete_HL_game_(real one)" />
-        <item itemvalue="Python.car_test" />
+        <item itemvalue="Python.fun_place" />
         <item itemvalue="Python.01_RPS" />
+        <item itemvalue="Python.car_test" />
+        <item itemvalue="Python.Complete_HL_game_(real one)" />
       </list>
     </recent_temporary>
   </component>
@@ -124,6 +148,8 @@
       <workItem from="1585515539797" duration="6304000" />
       <workItem from="1585705013290" duration="692000" />
       <workItem from="1585784201706" duration="3181000" />
+      <workItem from="1585789005384" duration="755000" />
+      <workItem from="1586130346262" duration="4776000" />
     </task>
     <servers />
   </component>
@@ -135,34 +161,35 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585784403845" />
-    <state width="1323" height="198" key="GridCell.Tab.0.bottom" timestamp="1585788730207">
+    <state width="1323" height="183" key="GridCell.Tab.0.bottom" timestamp="1586137354378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="198" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585788730207" />
-    <state width="1323" height="198" key="GridCell.Tab.0.center" timestamp="1585788730207">
+    <state width="1323" height="183" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586137354378" />
+    <state width="1323" height="183" key="GridCell.Tab.0.center" timestamp="1586137354378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="198" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585788730207" />
-    <state width="1323" height="198" key="GridCell.Tab.0.left" timestamp="1585788730207">
+    <state width="1323" height="183" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586137354378" />
+    <state width="1323" height="183" key="GridCell.Tab.0.left" timestamp="1586137354377">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="198" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585788730207" />
-    <state width="1323" height="198" key="GridCell.Tab.0.right" timestamp="1585788730207">
+    <state width="1323" height="183" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586137354377" />
+    <state width="1323" height="183" key="GridCell.Tab.0.right" timestamp="1586137354378">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="198" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585788730207" />
+    <state width="1323" height="183" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586137354378" />
     <state x="202" y="0" key="SettingsEditor" timestamp="1585362346883">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="202" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585362346883" />
-    <state x="397" y="181" key="com.intellij.ide.util.TipDialog" timestamp="1585784358039">
+    <state x="397" y="181" key="com.intellij.ide.util.TipDialog" timestamp="1586130525817">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="397" y="181" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585784358039" />
+    <state x="397" y="181" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586130525817" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/03_RPS_Game$car_test.coverage" NAME="car_test Coverage Results" MODIFIED="1585785305999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../02_Higher_Lower" />
-    <SUITE FILE_PATH="coverage/03_RPS_Game$01_RPS.coverage" NAME="01_RPS Coverage Results" MODIFIED="1585528337972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/03_RPS_Game$car_test.coverage" NAME="car_test Coverage Results" MODIFIED="1586131277023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../02_Higher_Lower" />
     <SUITE FILE_PATH="coverage/03_RPS_Game$Complete_HL_game__real_one_.coverage" NAME="Complete_HL_game_(real one) Coverage Results" MODIFIED="1585785651423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../02_Higher_Lower" />
+    <SUITE FILE_PATH="coverage/03_RPS_Game$01_RPS.coverage" NAME="01_RPS Coverage Results" MODIFIED="1586133689512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/03_RPS_Game$fun_place.coverage" NAME="fun_place Coverage Results" MODIFIED="1586137354346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
