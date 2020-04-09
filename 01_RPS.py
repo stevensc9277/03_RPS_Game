@@ -46,37 +46,15 @@ def rps_statement(statement, char):
     print()
 
 
-choice = "scissors"
-rounds = num_check("How many rounds do you want to play? ")
-rounds_played = 0
-start = 1
+for item in range(0, 4):
+    choice = "scissors"
+    user_play = input("Choose either rock(r), paper(p) or scissors(s): ").lower()
 
-while rounds_played < rounds:
-    user = ""
-    start_round = rps_statement("### Round {} of {} ###".format(start, rounds), "#")
-    start += 1
+    if user_play == "paper":
+        lose = rps_statement("<< User: {}   |   Computer: {}   |   Result: You lost >>".format(user_play, choice), "<")
 
-    while user != choice:
+    elif user_play == "rock":
+        win = rps_statement("** User: {}   |   Computer: {}   |   Result: You won **".format(user_play, choice), "*")
 
-        user = input("Please choose rock (r), paper (p) or scissors (s): ").lower()
-        while user != choice:
-            if user == "paper":
-                paper = rps_statement("<< User: {}   |   Computer:{}   |   "
-                                      "Result: You lost <<".format(user, choice), "<")
-                rounds += 1
-                break
-
-            elif user == "rock":
-                rock = rps_statement("** User:{}   |   Computer:{}   |   "
-                                     "Result: You won! **".format(user, choice), "*")
-                rounds += 1
-                break
-
-        else:
-            if user == choice:
-                scissors = rps_statement("!! User:{}   |   Computer:{}   |   "
-                                         "Result: It's a tie !!".format(user, choice), "!")
-                rounds += 1
-                break
-
-
+    else:
+        draw = rps_statement("!! User: {}   |   Computer: {}   |   Result: It's a tie !!".format(user_play, choice), "!")

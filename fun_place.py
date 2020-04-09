@@ -52,6 +52,7 @@ while keep_going == "":
     division = user_choice / computer
     multiplication = user_choice * computer
     exponent = math.pow(user_choice, computer)
+    root = math.sqrt(user_choice)
 
     # Print results
     print("{} + {} = {}".format(user_choice, computer, addition))
@@ -59,8 +60,9 @@ while keep_going == "":
     print("{} / {} = {:.2f}".format(user_choice, computer, division))
     print("{} * {} = {}".format(user_choice, computer, multiplication))
     print("{} raised to the power of {} = {:.0f}".format(user_choice, computer, exponent))
+    print("Square-root of {} is {:.2f}".format(user_choice, root))
     print()
     keep_going = input("Press <enter> to start again or any key to quit. ")
     print()
 
-print("The end...(* ￣︿￣)")
+print("Thanks for using me   (* ￣︿￣)")
