@@ -60,7 +60,7 @@ while keep_going == "":
     print("{} / {} = {:.2f}".format(user_choice, computer, division))
     print("{} * {} = {}".format(user_choice, computer, multiplication))
     print("{} raised to the power of {} = {:.0f}".format(user_choice, computer, exponent))
-    print("Square-root of {} is {:.2f}".format(user_choice, root))
+    print("Square-root of {} is {}".format(user_choice, root))
     print()
     keep_going = input("Press <enter> to start again or any key to quit. ")
     print()

@@ -35,7 +35,7 @@
       <recent name="C:\Users\d\Documents\GitHub\02_Higher_Lower" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.01_RPS">
+  <component name="RunManager" selected="Python.fun_place">
     <configuration name="01_RPS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="03_RPS_Game" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,8 +126,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.01_RPS" />
         <item itemvalue="Python.fun_place" />
+        <item itemvalue="Python.01_RPS" />
         <item itemvalue="Python.car_test" />
         <item itemvalue="Python.Complete_HL_game_(real one)" />
       </list>
@@ -185,9 +185,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="202" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585362346883" />
-    <state x="397" y="181" key="com.intellij.ide.util.TipDialog" timestamp="1586130525817">
+    <state x="397" y="181" key="com.intellij.ide.util.TipDialog" timestamp="1586472299169">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="397" y="181" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586130525817" />
+    <state x="397" y="181" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586472299169" />
   </component>
 </project>
