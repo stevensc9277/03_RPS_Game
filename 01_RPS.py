@@ -2,6 +2,7 @@
 
 # Get user input
 
+import random
 
 def num_check(question, low=None, high=None):
     # sets up error messages
@@ -46,15 +47,38 @@ def rps_statement(statement, char):
     print()
 
 
-for item in range(0, 4):
-    choice = "scissors"
+keep_going = ""
+while keep_going == "":
+    play = ["rock", "paper", "scissors"]
+    choice = random.choice(play)
     user_play = input("Choose either rock(r), paper(p) or scissors(s): ").lower()
 
     if user_play == "paper":
-        lose = rps_statement("<< User: {}   |   Computer: {}   |   Result: You lost >>".format(user_play, choice), "<")
-
+        if choice == "scissors":
+            lose = rps_statement("<< User: {}   |   Computer: {}   |   Result: You lost >>".format(user_play, choice), "<")
+        elif choice == "rock":
+            win = rps_statement("** User: {}   |   Computer: {}   |   Result: You won **".format(user_play, choice),
+                                "*")
+        else:
+            draw = rps_statement("!! User: {}   |   Computer: {}   |   Result: It's a tie !!".format(user_play, choice),
+                                 "!")
     elif user_play == "rock":
-        win = rps_statement("** User: {}   |   Computer: {}   |   Result: You won **".format(user_play, choice), "*")
-
+        if choice == "scissors":
+            win = rps_statement("** User: {}   |   Computer: {}   |   Result: You won **".format(user_play, choice),
+                                "*")
+        elif choice == "rock":
+            draw = rps_statement("!! User: {}   |   Computer: {}   |   Result: It's a tie !!".format(user_play, choice),
+                                 "!")
+        else:
+            lose = rps_statement("<< User: {}   |   Computer: {}   |   Result: You lost >>".format(user_play, choice),
+                                 "<")
     else:
-        draw = rps_statement("!! User: {}   |   Computer: {}   |   Result: It's a tie !!".format(user_play, choice), "!")
+        if choice == "scissors":
+            draw = rps_statement("!! User: {}   |   Computer: {}   |   Result: It's a tie !!".format(user_play, choice),
+                                 "!")
+        elif choice == "rock":
+            lose = rps_statement("<< User: {}   |   Computer: {}   |   Result: You lost >>".format(user_play, choice),
+                                 "<")
+        else:
+            win = rps_statement("** User: {}   |   Computer: {}   |   Result: You won **".format(user_play, choice),
+                                "*")
